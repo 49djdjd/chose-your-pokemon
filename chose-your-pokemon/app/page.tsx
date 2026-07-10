@@ -7,7 +7,7 @@ export default function Home() {
         <Image
         className="-mt-5 hover:animate-bounce"
           src="/meowth.png"
-          alt="Next.js logo"
+          alt="meowth image"
 
           width={150}
           height={40}
@@ -16,19 +16,19 @@ export default function Home() {
             Welcome to Pokemon Chooser!
           </h1>
         </div>
-        <div className="flex flex-col items-center mt-60 gap-4 text-5xl font-medium sm:flex-row">
+        <div className="flex flex-col items-center mt-60 gap-4 text-4xl font-medium sm:flex-row">
         <Image
             className="hover:animate-bounce"
               src="/piplup.png"
-              alt="Vercel logomark"
+              alt="piplup image"
               width={100}
               height={20}
             />
           <a
-            className="items-center justify-center flex h-15 w-full gap-2 rounded-full bg-foreground px-15 text-background transition-colors hover:bg-[#383838] sm:w-auto"
-            href="/quiz"
+            className="items-center justify-center flex h-20 gap-3 rounded-full px-15 text-background bg-sky-200 hover:bg-sky-100"
+            href="/generator"
           >
-            Start Quiz!
+            Pick one!
           </a>
         </div>
     </div>
