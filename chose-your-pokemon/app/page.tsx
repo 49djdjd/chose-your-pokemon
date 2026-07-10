@@ -8,7 +8,6 @@ export default function Home() {
         className="-mt-5 hover:animate-bounce"
           src="/meowth.png"
           alt="meowth image"
-
           width={150}
           height={40}
         />

@@ -28,21 +28,23 @@ export default function App(){
           setLoading(false);
         }
     };
+    //referenced ai for this line
+    useEffect(() => {
+        generateImage();
+    }, []);
     return(
         <div>
         <h1>Your Pokemon is!</h1>
         <div>
             <h2 className="font-pokemon">{name}</h2>
             <Image
-            className="hover:animate-bounce"
             src={image}
             alt={name}
+            width={100}
+            height={100}
             ></Image>
         </div>
-        <button onClick={generateImage}
-        disabled={loading}
-        {loading ? "catching"}> </button>
         </div>
-    )
+    );
 
 }
