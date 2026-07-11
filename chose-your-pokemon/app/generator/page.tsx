@@ -34,7 +34,7 @@ export default function App(){
     }, []);
     return(
         <div className="flex flex-col text-center items-center min-h-screen justify-center bg-cyan-50">
-        <h1 className="pt-20 font-pokemon text-black text-8xl">Your Pokemon is:</h1>
+        <h1 className="pt-20 font-pokemon text-black bg-clip-text text-8xl hover:text-transparent hover:bg-linear-to-r from-amber-300 to-blue-500">Your Pokemon is:</h1>
         <div className="pt-10 items-center flex-col flex ">
             <h2 className="pt-20 font-pokemon text-black text-7xl">{name}!</h2>
             <img
@@ -49,6 +49,7 @@ export default function App(){
         >
         back!
         </a>
+        
         </div>
     );
 
